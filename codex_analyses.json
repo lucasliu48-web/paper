@@ -1,0 +1,38 @@
+{
+  "basis": "RSS title and description only",
+  "updated_at": "2026-09-29T06:53:15.887296+00:00",
+  "items": [
+    {
+      "link": "https://www.nature.com/articles/d41586-026-03004-3",
+      "summary": "新闻报道中国下一代 CAR-T 疗法试验进展及监管变化可能带来的影响；题录未提供试验数量、比较口径或监管细节。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02959-7",
+      "summary": "书评介绍一本霍金传记及其对霍金人际关系的描写；摘要不足以核验传记的史料依据。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02964-w",
+      "summary": "技术解读介绍可能实现整基因替换和复杂细胞回路构建的基因编辑方法；摘要未说明具体技术的验证程度，且指出细胞内安全递送仍是条件。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-03043-w",
+      "summary": "新闻报道移植器官生物年龄可能随受体变化的研究线索；摘要未提供测量方法或证据，扩大供体来源的可能性尚不能据此确认。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-03041-y",
+      "summary": "简报讨论可能用于读取炭化古卷的技术及可生物降解食用电池；摘要未提供两项技术的验证结果。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-03032-z",
+      "summary": "书评栏目简评五本科普书；摘要未列出书目或具体评价依据。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-03039-6",
+      "summary": "新闻报道利用约 950 个 AI 智能体搜索病毒 DNA 序列并发现被称为“类 CRISPR”的序列；摘要未说明发现的实验验证或功能。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-03016-z",
+      "summary": "评论借尼泊尔洪灾主张联合国气候损失与损害基金更公平、及时地作出资助决策；摘要未提供政策效果或资金分配数据。"
+    }
+  ]
+}
