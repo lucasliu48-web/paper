@@ -20,6 +20,12 @@
 *   **隐私保护**：支持通过 GitHub Secrets 注入配置，隐藏用户的研究领域与关注列表。
 *   **AI 总结（可选）**：支持调用 OpenAI 兼容接口，对新增命中文献生成中文 HTML 总结，并输出独立 RSS。
 
+### 本机 Codex 分析（无需 API Key）
+
+网页首页会读取 `codex_analyses.json`，显示本机 Codex CLI 根据 RSS 题录和摘要生成的中文初筛分析。先在本机完成 Codex 的 ChatGPT 登录，然后运行 `python scripts/update_codex_analysis.py --limit 20` 生成新增条目。运行 `scripts/publish_codex_analysis.ps1` 会同步仓库、分析新增条目、提交并触发 Pages 发布。定时运行需要本机保持开机、联网并登录，GitHub Actions 仍每 6 小时抓取 RSS。
+
+分析仅依据 RSS 内容，不代表已核验全文。当前仓库使用 Nature 和关键词 `the` 作为演示订阅；正式使用时请填写自己的期刊 RSS 与原样关键词。
+
 ---
 
 ## 🚀 部署流程
