@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>文献追踪</title>
+  <title>加兰他敏文献追踪</title>
   <style>
     :root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
     * { box-sizing: border-box; }
@@ -16,6 +16,11 @@
     .toolbar input { flex: 1 1 250px; min-width: 0; padding: .8rem 1rem; border: 1px solid #c8d7d1; border-radius: .6rem; font: inherit; }
     .toolbar a { padding: .8rem 1rem; border-radius: .6rem; color: #123d39; background: #d7ece5; font-weight: 600; text-decoration: none; }
     .notice { margin: 0 0 1.5rem; padding: .8rem 1rem; border-left: 4px solid #b17e2f; background: #fff4df; }
+    .other { margin: 0 0 1.5rem; padding: .9rem 1rem; border: 1px solid #c8d7d1; border-radius: .6rem; background: white; }
+    .other summary { cursor: pointer; font-weight: 600; color: #145e59; }
+    .other p { color: #52656a; }
+    .other li { margin: .6rem 0; line-height: 1.5; }
+    .other a { color: #145e59; }
     #status { color: #4a5e66; margin: 1rem 0; }
     .paper { background: white; border: 1px solid #e0e8e4; border-radius: .8rem; padding: 1.25rem; margin: .75rem 0; box-shadow: 0 2px 8px #163d3309; }
     .paper h2 { font-size: 1.15rem; line-height: 1.45; margin: .35rem 0 .65rem; }
@@ -33,19 +38,32 @@
 </head>
 <body>
   <header>
-    <h1>文献追踪</h1>
-    <p>查看最近筛选到的论文，点击标题前往原文页面。</p>
+    <h1>加兰他敏文献追踪</h1>
+    <p>查看最近匹配的文献候选，点击标题核对原始记录。</p>
   </header>
   <main>
     <div class="toolbar">
       <input id="search" type="search" placeholder="搜索标题、期刊或摘要" aria-label="搜索文献">
       <a href="filtered_feed.xml">订阅 RSS</a>
     </div>
-    <p class="notice">当前为演示订阅：Nature，测试关键词为 the。提供正式期刊和关键词后会替换。</p>
+    <p class="notice">当前检索词：加兰他敏、Galanthamine、galantamine。展示 PubMed 按发表日期排序返回的前 60 条题录；部分文章可能仅在摘要中提及该词，请结合分析和原文核对。</p>
+    <details class="other">
+      <summary>查看其他数据库的已核对链接</summary>
+      <p>以下是公开页面上核对过的补充链接；自动更新的文献列表来自 PubMed。不同平台可能收录同一篇文献。</p>
+      <ul>
+        <li>Cochrane（2024 系统综述）：<a href="https://www.cochrane.org/evidence/CD001747_does-galantamine-help-people-dementia-due-alzheimers-disease-and-people-mild-cognitive-impairment">Galantamine for dementia due to Alzheimer's disease and mild cognitive impairment</a></li>
+        <li>中华医学期刊网（2020 指南）：<a href="https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E9%98%BF%E5%B0%94%E8%8C%A8%E6%B5%B7%E9%BB%98%E7%97%85%E7%97%B4%E5%91%86%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%282020%E5%B9%B4%E7%89%88%29%20-%20%E4%B8%AD%E5%8D%8E%E8%80%81%E5%B9%B4%E5%8C%BB%E5%AD%A6%E6%9D%82%E5%BF%97.html">中国阿尔茨海默病痴呆诊疗指南（2020年版）</a></li>
+        <li>SinoMed（中文题录）：<a href="https://www.sinomed.ac.cn/article.do?ui=2023413685">天麻钩藤饮合葛根芩连汤加减方联合氢溴酸加兰他敏改善脑小血管病认知功能障碍的疗效</a></li>
+        <li>知网期刊平台（2026 论文）：<a href="https://bmjj.cbpt.cnki.net/portal/journal/portal/client/paper/14a350055799f28ff643f24b72d11c22">阿尔茨海默病患者应用丙戊酸镁联合加兰他敏治疗的临床效果及安全性评估</a></li>
+        <li>万方医学网：<a href="https://med.wanfangdata.com.cn/Paper/Search?n=20&amp;q=%E5%8A%A0%E5%85%B0%E4%BB%96%E6%95%8F">加兰他敏公开检索结果</a></li>
+        <li>Ovid（期刊题录）：<a href="https://www.ovid.com/journals/ajadd/pdf/10.1177/153331750401900411~alleviation-of-multiple-abnormalities-by-galantamine">Alleviation of multiple abnormalities by galantamine treatment in two patients with dementia with Lewy bodies</a></li>
+        <li>UpToDate（临床综述入口）：<a href="https://www.uptodate.com/contents/cholinesterase-inhibitors-in-the-treatment-of-dementia">Cholinesterase inhibitors in the treatment of dementia</a></li>
+      </ul>
+    </details>
     <p id="status" role="status" aria-live="polite">正在读取文献…</p>
     <section id="papers" aria-label="文献列表"></section>
   </main>
-  <footer>文献信息来自期刊 RSS。Codex 分析仅依据 RSS 题录和摘要，全文信息请以原文为准。</footer>
+  <footer>题录来自 PubMed。Codex 分析依据公开题录和摘要，未代表已阅读全文。查看 <a href="https://www.ncbi.nlm.nih.gov/home/about/policies/">NCBI 使用与版权说明</a>；全文信息以原文为准。</footer>
   <script>
     const status = document.querySelector('#status');
     const list = document.querySelector('#papers');
@@ -63,8 +81,8 @@
 
     async function copyForAi(paper, button) {
       const prompt = [
-        '请根据以下 RSS 题录和摘要帮助我初筛这篇文献。',
-        '只依据给出的内容说明研究问题、可能的研究设计及值得进一步核验的信息。',
+        '请根据以下题录和已有初筛，列出需要核对的全文信息。',
+        '只依据给出的内容说明可确认的信息与局限。',
         '不要声称已阅读全文；无法判断的内容写“未核实”。请保留原文标题和链接。',
         '如需判断与我的研究方向是否相关，请先询问我的研究问题和关键词。',
         '',
@@ -72,7 +90,8 @@
         `期刊：${paper.journal || '未报告'}`,
         `发布日期：${paper.date || '未报告'}`,
         `链接：${paper.link}`,
-        `摘要：${paper.summary || '未报告'}`
+        `RSS 说明：${paper.summary || '未报告'}`,
+        `Codex 初筛：${analyses.get(paper.link)?.summary || '尚未生成'}`
       ].join('\n');
       try {
         await navigator.clipboard.writeText(prompt);
@@ -117,7 +136,7 @@
           const box = document.createElement('div');
           box.className = 'analysis';
           const label = document.createElement('strong');
-          label.textContent = 'Codex 分析 · 基于 RSS 摘要';
+          label.textContent = 'Codex 初筛 · 基于题录和摘要';
           const body = document.createElement('p');
           body.textContent = analysis.summary;
           box.append(label, body);

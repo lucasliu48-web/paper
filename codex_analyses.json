@@ -1,254 +1,246 @@
 {
-  "basis": "RSS title and description only",
-  "updated_at": "2026-09-29T07:05:52.487472+00:00",
+  "basis": "public citation and abstract only",
+  "updated_at": "2026-09-29T07:55:00.139705+00:00",
   "items": [
     {
-      "link": "https://www.nature.com/articles/d41586-026-03004-3",
-      "summary": "新闻报道中国下一代 CAR-T 疗法试验进展及监管变化可能带来的影响；题录未提供试验数量、比较口径或监管细节。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42288161/",
+      "summary": "这项原始研究评估伞状脐草提取物的活性，加兰他敏仅作为胆碱酯酶抑制实验的对照。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02959-7",
-      "summary": "书评介绍一本霍金传记及其对霍金人际关系的描写；摘要不足以核验传记的史料依据。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42561776/",
+      "summary": "这项原始研究测试新合成化合物的乙酰胆碱酯酶抑制活性，加兰他敏仅作为阳性对照。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02964-w",
-      "summary": "技术解读介绍可能实现整基因替换和复杂细胞回路构建的基因编辑方法；摘要未说明具体技术的验证程度，且指出细胞内安全递送仍是条件。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42409273/",
+      "summary": "这项原始研究鉴定水仙酪氨酸脱羧酶，加兰他敏仅作为相关生物合成途径的背景被提及。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-03043-w",
-      "summary": "新闻报道移植器官生物年龄可能随受体变化的研究线索；摘要未提供测量方法或证据，扩大供体来源的可能性尚不能据此确认。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42388101/",
+      "summary": "这项回顾性队列研究直接纳入加兰他敏，比较其与其他胆碱酯酶抑制剂使用者的严重心脏事件风险。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-03041-y",
-      "summary": "简报讨论可能用于读取炭化古卷的技术及可生物降解食用电池；摘要未提供两项技术的验证结果。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41622480/",
+      "summary": "这篇综述讨论阿尔茨海默病动物模型中的细胞外囊泡治疗，加兰他敏仅作为现有治疗的背景被提及。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-03032-z",
-      "summary": "书评栏目简评五本科普书；摘要未列出书目或具体评价依据。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42788284/",
+      "summary": "这篇综述提及既往加兰他敏治疗狼疮小鼠的研究，但本文并非新的加兰他敏原始研究。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-03039-6",
-      "summary": "新闻报道利用约 950 个 AI 智能体搜索病毒 DNA 序列并发现被称为“类 CRISPR”的序列；摘要未说明发现的实验验证或功能。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42771164/",
+      "summary": "这项大鼠原始研究直接给予加兰他敏，评估其在视觉信号检测任务中的作用。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-03016-z",
-      "summary": "评论借尼泊尔洪灾主张联合国气候损失与损害基金更公平、及时地作出资助决策；摘要未提供政策效果或资金分配数据。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42800396/",
+      "summary": "这项原始研究主要评估白花马鞭草精油，加兰他敏仅作为分子对接的参照物。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02980-w",
-      "summary": "新闻调查称一些冒牌科学学会以误导方式吸纳知名研究者；仅凭题录和摘要无法核验调查证据及涉及范围。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42761709/",
+      "summary": "这篇综述聚焦靛红类胆碱酯酶抑制剂，加兰他敏仅作为现有药物在背景中提及。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-03028-9",
-      "summary": "访谈报道介绍 OpenAI 研究负责人对近期事件和安全方向调整的说法；仅凭摘要无法核验访谈原话或实际措施。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42743124/",
+      "summary": "这项大鼠原始研究直接设置加兰他敏给药组，评估其对马拉硫磷反复暴露所致损伤的影响。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-03005-2",
-      "summary": "新闻报道关注 AI 代理向研究者提出合作及资源请求的现象；摘要未提供发生频率或影响程度的数据。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42249611/",
+      "summary": "这项基因组与生化原始研究直接探究加兰他敏的生物合成途径。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02988-2",
-      "summary": "研究新闻称熊蜂会用陌生材料建造储蜜结构；摘要未说明观察条件，也不足以判断这种行为有多普遍。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/28722879/",
+      "summary": "这篇高风险药物清单类文章仅将加兰他敏列为口服乙酰胆碱酯酶抑制剂之一。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02989-1",
-      "summary": "研究新闻称热衷观看线上体育视频的大学生并未报告更高的运动参与度；摘要无法支持因果判断，也未给出测量细节。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42729626/",
+      "summary": "这项原始研究评估蔷薇属植物提取物，加兰他敏仅用于表示酶抑制活性的当量单位。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-03020-3",
-      "summary": "专题报道讨论部分人使用 GLP-1 类减重药后获益有限的可能原因；摘要未给出无应答比例或已获证实的机制。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42796795/",
+      "summary": "这项斑马鱼原始研究主要评估留兰香精油，加兰他敏作为实验对照给药。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02990-8",
-      "summary": "技术新闻介绍一种让不同实验设备通信并由 AI 代理控制的平台；摘要未提供兼容范围或效率提升的验证数据。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42691804/",
+      "summary": "GOYA，这项回顾性队列研究将加兰他敏纳入口服制剂组，但摘要仅报告口服与贴剂组的合并比较，未单独报告加兰他敏结果。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-03024-z",
-      "summary": "新闻报道一起 AI 代理访问澳大利亚医疗网站受保护数据且延迟报告的事件；仅凭摘要无法核验入侵过程、数据范围和影响。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42745774/",
+      "summary": "原始细胞研究：将加兰他敏列为处理组之一，与其他处理比较BV2细胞的转录状态，属于直接研究。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-03029-8",
-      "summary": "每日简报汇集 AI 风险、精密计时和硼的新物相等话题；摘要未提供足以核验各话题结论的依据。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42705860/",
+      "summary": "病例报告：记录患者从口服加兰他敏改用多奈哌齐贴剂后的情况，涉及加兰他敏用药，但重点是换药后的变化。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-03022-1",
-      "summary": "新闻报道蛋白质结构数据库新增常见病毒的蛋白质复合物预测结果；摘要明确提示这些预测仍需实验验证。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42688663/",
+      "summary": "叙述性综述：以加兰他敏及其前药为主要对象，汇总其作用机制和临床相关研究，属于直接讨论。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-03021-2",
-      "summary": "简报提及利用匿名银行数据分析经济控制型虐待，并附带地球自转话题；摘要未提供分析方法或可核验的具体结果。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42627505/",
+      "summary": "原始化合物研究：主要研究新合成的胆碱酯酶抑制剂，加兰他敏仅作为活性对照。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02856-z",
-      "summary": "数据新闻依据 Nature Index 描述美国和中国在再生医学领域的表现；摘要未说明指标口径或统计范围。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42392247/",
+      "summary": "结构分析综述：加兰他敏被列入乙酰胆碱酯酶配体类别，研究对象是多类配体，并非专门研究加兰他敏。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02986-4",
-      "summary": "考古新闻报道发现约一吨重的铁条储藏，可能提示铁器时代贸易规模；摘要不足以核验其年代、来源或贸易推断。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42691699/",
+      "summary": "原始药物发现平台研究：主要评价新合成的抑制剂，加兰他敏仅作为活性比较对象。"
     },
     {
-      "link": "https://www.nature.com/articles/s41586-026-11053-x",
-      "summary": "研究论文利用大规模平行报告实验和人猿杂交骨骼细胞研究顺式调控元件与人类骨骼组织演化；摘要未给出具体效应及其验证范围。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42603776/",
+      "summary": "原始衍生物研究：直接研究加兰他敏衍生物的合成与体外活性，母体加兰他敏用于比较。"
     },
     {
-      "link": "https://www.nature.com/articles/s41586-026-11058-6",
-      "summary": "研究论文称新发传染病暴发风险在全球广泛存在，并在人、牲畜与破碎化自然生态系统共存的地区较高；摘要同时指出医疗可及性差异限制了暴发数据和检测。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42635820/",
+      "summary": "系统综述与荟萃分析：直接汇总并分析加兰他敏治疗血管性痴呆的试验结果，同时评价其他药物。"
     },
     {
-      "link": "https://www.nature.com/articles/s41586-026-10999-2",
-      "summary": "研究论文将地球日长的多年际波动归因于引力矩及电磁、地形作用的共同影响；摘要未提供各作用的定量贡献或验证细节。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42776676/",
+      "summary": "原始方法学研究：加兰他敏是大鼠脑电药物分类模型训练集中的一种药物，研究重点是分类方法。"
     },
     {
-      "link": "https://www.nature.com/articles/s41586-026-11072-8",
-      "summary": "研究论文报告两台独立的镥离子光钟达到约 10⁻¹⁹ 的频率不确定度，并以 5.7×10⁻¹⁹ 的水平相符；摘要未说明误差预算或复现范围。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42738604/",
+      "summary": "原始质谱成像研究：加兰他敏是水仙鳞茎中推定注释的多种代谢物之一，研究重点是成像方法及代谢物分布。"
     },
     {
-      "link": "https://www.nature.com/articles/s41586-026-11016-2",
-      "summary": "研究论文称九残基肽的序列可引导形成六角孔及多通道纳米纤维；摘要未说明结构验证细节或可推广的序列范围。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42604874/",
+      "summary": "原始药物警戒研究：直接分析包括加兰他敏在内的胆碱酯酶抑制剂与性脱抑制的不成比例报告信号。"
     },
     {
-      "link": "https://www.nature.com/articles/s41586-026-11051-z",
-      "summary": "研究论文称缺乏丝氨酸合成酶的胰腺癌肝转移灶可促使肝细胞提供丝氨酸，从而支持肿瘤生长；摘要未说明这一机制适用的病例范围。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42602264/",
+      "summary": "原始体外与计算研究：主要研究N-甲基野靛碱，加兰他敏仅作为计算结合结果的参照抑制剂。"
     },
     {
-      "link": "https://www.nature.com/articles/s41586-026-11056-8",
-      "summary": "研究论文介绍针对 ABL1 和 EGFR 的双位点激酶抑制剂设计，其中一种 ABL1 抑制剂被描述为对耐药突变活性更强、脱靶毒性更低；摘要未给出比较条件或临床证据。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42581666/",
+      "summary": "系统综述：直接汇总加兰他敏对阿尔茨海默病患者认知领域的研究结果，同时讨论其他药物。"
     },
     {
-      "link": "https://www.nature.com/articles/s41586-026-11028-y",
-      "summary": "研究论文：报告甲烷菌水解酶 ArmA 可切割甲烷菌细胞壁，并据此提出古菌肽聚糖含有此前未识别的糖；题录未提供结构鉴定的完整证据。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42568171/",
+      "summary": "药物综合评价研究：摘要未列出所评估的七种制剂，无法确认加兰他敏是否被直接评价。"
     },
     {
-      "link": "https://www.nature.com/articles/s41586-026-11054-w",
-      "summary": "研究论文：摘要将 TSC2 缺失引起的星形胶质细胞反应与结节性硬化症病理联系起来；将星形胶质细胞作为治疗靶点仍是潜在方向，题录未提供治疗验证结果。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42634351/",
+      "summary": "系统综述：加兰他敏仅作为阿尔茨海默病常用胆碱酯酶抑制剂之一被提及，综述重点是诊断与多种治疗进展。"
     },
     {
-      "link": "https://www.nature.com/articles/s41586-026-11033-1",
-      "summary": "研究论文：报告菱方石墨烯在不同条件下出现零电阻超导区域和有限饱和电阻区域；题录未提供相区边界及测量细节。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42634550/",
+      "summary": "原始药物警戒研究：直接分析加兰他敏等三种药物的FAERS报告信号和报告起始时间。"
     },
     {
-      "link": "https://www.nature.com/articles/s41586-026-10271-7",
-      "summary": "研究论文：描述人背外侧前额叶皮质不同细胞类型随年龄变化的非线性转录轨迹；题录未提供样本构成及轨迹推断的细节。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42641004/",
+      "summary": "原始体外及计算研究：研究对象是新合成的双席夫碱，加兰他敏仅作为活性比较药物。"
     },
     {
-      "link": "https://www.nature.com/articles/s41586-026-11040-2",
-      "summary": "研究论文：基于密西西比河流域长期记录，认为农业施石灰在过去一个世纪总体表现为碳汇；题录未给出碳收支估算方法和不确定性范围。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42599760/",
+      "summary": "题名涉及加兰他敏合成路线；未提供摘要，无法判断是原始研究、新闻还是评论。"
     },
     {
-      "link": "https://www.nature.com/articles/s41586-026-11052-y",
-      "summary": "研究论文：提出 TRAM 通过促使 MyD88 脱离 TLR–TIRAP 复合物来调节 myddosome 成熟及后续信号传导；题录未提供机制验证的具体证据。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42467190/",
+      "summary": "原始体外及分子对接研究：研究对象是异黄酮及其衍生物，加兰他敏仅用于活性比较。"
     },
     {
-      "link": "https://www.nature.com/articles/s41586-026-11029-x",
-      "summary": "研究论文：报告果蝇 Lsp2 与 mTORC1、TOP mRNA 翻译及寿命有关，且缺失 Lsp2 的果蝇寿命延长；题录未给出效应大小或能否推广至其他物种的证据。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42157556/",
+      "summary": "原始大鼠实验：直接研究加兰他敏对多柔比星所致心脏毒性的影响及相关通路。"
     },
     {
-      "link": "https://www.nature.com/articles/s41586-026-11031-3",
-      "summary": "研究论文：用同位素示踪考察果蝇幼虫期膳食氨基酸的去向，并提出 Lsp2 连接早期蛋白质限制、成年期翻译与寿命；题录未提供示踪结果和效应量。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41936874/",
+      "summary": "原始化合物研究：研究对象是新合成的嘧啶衍生物，加兰他敏作为乙酰胆碱酯酶抑制活性的阳性对照。"
     },
     {
-      "link": "https://www.nature.com/articles/s41586-026-11050-0",
-      "summary": "研究论文：小鼠脑空间脂质组图谱显示超过 500 个生化区域，并描述妊娠期间的变化；题录未提供区域划分标准或变化幅度。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41358617/",
+      "summary": "原始天然产物研究：研究对象是新分离的查尔酮，加兰他敏作为乙酰胆碱酯酶抑制实验的参照药物。"
     },
     {
-      "link": "https://www.nature.com/articles/s41586-025-09573-z",
-      "summary": "研究论文：人背外侧前额叶皮质单细胞转录组图谱描述了多种脑疾病的转录特征；题录所称治疗靶点仍属潜在方向，未提供临床验证。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42589213/",
+      "summary": "原始计算模拟研究：将加兰他敏列为多种受测药物之一，考察其与受体和酶的分子对接。"
     },
     {
-      "link": "https://www.nature.com/articles/s41586-026-11048-8",
-      "summary": "研究论文：提出 TA 重复序列处的微同源介导末端连接有助于维持染色体外 DNA 稳定性；干预 Polθ 的抗肿瘤作用在题录中仍是推测，未见治疗效果数据。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42514962/",
+      "summary": "原始制剂及动物研究：直接研究加兰他敏鼻喷剂的鼻腔沉积、脑内分布及阿尔茨海默病大鼠中的作用。"
     },
     {
-      "link": "https://www.nature.com/articles/s41586-026-11102-5",
-      "summary": "研究论文：报告四足机器人 RAIBO2 单次充电完成马拉松及其运输成本数值；题录未提供测试条件或重复运行结果。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42428535/",
+      "summary": "原始植物提取物研究：研究对象是植物提取物，加兰他敏仅出现在胆碱酯酶抑制活性的当量计量单位中。"
     },
     {
-      "link": "https://www.nature.com/articles/s41586-026-11041-1",
-      "summary": "研究论文：报告 Danionella cerebrum 通过感知同伴快速运动参与集体逃逸，并指出相关中脑和丘脑神经元活动；题录未提供行为与神经记录的详细证据。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42412620/",
+      "summary": "原始生物碱研究：研究对象是分离得到的生物碱，加兰他敏作为乙酰胆碱酯酶抑制实验的阳性对照。"
     },
     {
-      "link": "https://www.nature.com/articles/s41586-026-11046-w",
-      "summary": "研究论文：提出拟南芥着丝粒重复单元的插入、缺失和点突变共同塑造其串联重复结构；题录未提供突变率估计或机制验证细节。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42503220/",
+      "summary": "原始植物黄酮研究：研究对象是分离得到的黄酮，加兰他敏用于分子对接预测结果的比较。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02772-2",
-      "summary": "研究解读文章：介绍小鼠脑脂质空间分区及妊娠期变化；题录未提供原研究的方法和结果细节，不能作为独立研究证据。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42446545/",
+      "summary": "原始化合物研究：研究对象是新合成的衍生物，加兰他敏作为胆碱酯酶抑制活性的参照药物。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02937-z",
-      "summary": "研究解读文章：介绍表面处理与大面积钙钛矿太阳能组件的效率、稳定性及良率；题录未给出测试条件和与硅组件比较的具体数据。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42446025/",
+      "summary": "原始酶学及模拟研究：直接研究加兰他敏氢溴酸盐与小檗碱联用时对乙酰胆碱酯酶的抑制作用。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02857-y",
-      "summary": "评论文章：主张再生医学研究应充分纳入女性及非二元性别者；题录未提供代表性不足的量化数据或系统性证据。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42443051/",
+      "summary": "原始回顾性队列研究：加兰他敏是与多奈哌齐比较恶性心律失常住院风险的用药组之一。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-03018-x",
-      "summary": "新闻报道：转述一项研究关于地核运动相关作用力可解释地球自转微小变化的发现；题录未提供原研究的测量和建模细节。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42427263/",
+      "summary": "原始研究，评估新合成的吲哚胺类胆碱酯酶抑制剂，加兰他敏仅作为体外活性对照。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-03001-6",
-      "summary": "新闻报道：介绍一种高压制备的硼相及其导电性和可拉伸性；题录未提供测试条件，也未说明与预期导电性的比较依据。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42268233/",
+      "summary": "原始研究，评估苯并咪唑衍生物的胆碱酯酶抑制活性，加兰他敏仅作为标准药物对照。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02949-9",
-      "summary": "评论文章：主张大学在应用人工智能时保留人类教师的作用；题录呈现的是观点，未提供教学效果的实证比较。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41687295/",
+      "summary": "原始研究，开发乙酰胆碱酯酶检测平台，并用加兰他敏等已知抑制剂测试平台；研究重点是检测方法。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02855-0",
-      "summary": "新闻：介绍干细胞治疗自身免疫病的进展及免疫抑制难题；摘要未提供临床疗效或安全性数据。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42377826/",
+      "summary": "原始研究，评估新合成化合物的生物活性，加兰他敏作为丁酰胆碱酯酶抑制实验的参照药物。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02789-7",
-      "summary": "研究解读：介绍细穗飘拂草有性繁殖中类似克隆的遗传现象；摘要未提供原始实验方法或证据细节。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42451611/",
+      "summary": "原始研究，分析南极地衣提取物的成分和活性，加兰他敏仅用于分子对接结果的比较。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-03025-y",
-      "summary": "每日简报：汇集焦卷文字识读、系外行星无线电信号及人工智能时代的思考等话题；摘要不足以核验各项报道的依据。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42450004/",
+      "summary": "文献综述，讨论乙酰胆碱酯酶抑制剂的疗效与安全性；所给摘要未明确提及加兰他敏或单独分析该药。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02947-x",
-      "summary": "新闻：报道一份覆盖近1500名不同年龄供者的前额叶基因表达图谱；摘要未说明其对阿尔茨海默病的具体发现。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42506779/",
+      "summary": "回顾性队列原始研究，分析抗胆碱药物负担与谵妄风险；加兰他敏仅列为纳入人群可能使用的胆碱酯酶抑制剂之一。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02930-6",
-      "summary": "科普评论：讨论人工智能对记忆和推理的潜在影响及保持批判性思维的方法；摘要未列出支持这些方法的研究证据。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42338648/",
+      "summary": "药物治疗概述，重点介绍多奈单抗；加兰他敏仅作为现有乙酰胆碱酯酶抑制剂的背景例子。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02770-4",
-      "summary": "研究解读：介绍用单核RNA测序绘制前额叶细胞基因表达图谱；摘要未提供原始研究的样本构成或具体结果。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/36508538/",
+      "summary": "植物生物碱毒性综述性文章，加兰他敏仅作为具有治疗用途的生物碱例子提及。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02775-z",
-      "summary": "研究解读：提出基因调控变化可能参与人类骨骼适应的形成；摘要未提供验证这一解释的证据细节。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42352069/",
+      "summary": "原始研究，比较两种植物材料的抗氧化活性；加兰他敏仅在介绍植物来源时提及，摘要未报告测定其含量或活性。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02773-1",
-      "summary": "研究解读：将数十年尺度的日长变化与地球内核和地幔间的引力耦合联系起来；摘要未交代分析方法及不确定性。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42297456/",
+      "summary": "回顾性队列原始研究，考察抗疱疹药物使用与启动阿尔茨海默病药物治疗的关联；加兰他敏仅列入结局所涵盖的药物。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02858-x",
-      "summary": "方法指南：说明Nature Index增刊的术语、方法及网站功能；摘要未列出具体统计口径或适用范围。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42261164/",
+      "summary": "原始研究，评估黄连解毒汤提取物的体外活性，加兰他敏作为乙酰胆碱酯酶抑制实验的参照药物。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02563-9",
-      "summary": "职业建议：讨论博士生如何重拾研究动力；摘要未提供建议内容或其效果证据。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42364649/",
+      "summary": "原始研究，直接研究加兰他敏的生物合成途径及相关酶，未涉及其临床疗效。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-03019-w",
-      "summary": "新闻：报道基于镥原子的高精度时钟及其重新定义秒的潜力；摘要未给出精度指标或比较依据。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42341204/",
+      "summary": "原始药物流行病学研究，筛查胆碱酯酶抑制剂相关的潜在处方级联；加兰他敏是纳入分析的药物之一，摘要未报告其单药结果。"
     },
     {
-      "link": "https://www.nature.com/articles/d41586-026-02771-3",
-      "summary": "研究解读：介绍北半球针叶树在南半球种植后的生长和生理表现；摘要未说明研究对象、条件或适用范围。"
-    },
-    {
-      "link": "https://www.nature.com/articles/d41586-026-02637-8",
-      "summary": "新闻：报道蝙蝠基因组集合为演化研究提供新线索；摘要未说明基因组数量、分析方法或具体发现。"
-    },
-    {
-      "link": "https://www.nature.com/articles/d41586-026-02854-1",
-      "summary": "评论：主张为再生医学建立更深入且更公平的研究基础；摘要未提供具体论证或实施方案。"
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42281238/",
+      "summary": "原始研究，评估椰枣提取物的胆碱酯酶抑制活性，加兰他敏作为酶抑制实验的标准药物对照。"
     }
   ]
 }

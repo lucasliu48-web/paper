@@ -3,6 +3,8 @@
 [![GitHub Actions](https://img.shields.io/badge/Actions-Automated-blue.svg)](https://github.com/features/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+> 当前部署：使用 `keywords.dat` 中的“加兰他敏”、“Galanthamine”、“galantamine”检索 PubMed 标题和摘要，每 6 小时发布前 60 条题录。`pubmed_feed.py` 生成公开 RSS；本机 Codex 临时读取 PubMed 摘要，发布自己的中文初筛，不公开复制原摘要。首页另列出已核对的其他数据库公开链接。下文的期刊 RSS 与 AI 接口设置属于原项目的可选模式，当前工作流未启用。
+
 ### 系统概述
 本工具是一个基于 GitHub Actions 的全自动文献监测系统。它旨在解决科研工作中的信息筛选效率问题，功能逻辑如下：
 1.  **抓取**：定时从指定的期刊 RSS 源获取最新发表的论文。
@@ -22,9 +24,9 @@
 
 ### 本机 Codex 分析（无需 API Key）
 
-网页首页会读取 `codex_analyses.json`，显示本机 Codex CLI 根据 RSS 题录和摘要生成的中文初筛分析。先在本机完成 Codex 的 ChatGPT 登录，然后运行 `python scripts/update_codex_analysis.py --limit 20` 生成新增条目。运行 `scripts/publish_codex_analysis.ps1` 会同步仓库、分析新增条目、提交并触发 Pages 发布。定时运行需要本机保持开机、联网并登录，GitHub Actions 仍每 6 小时抓取 RSS。
+网页首页会读取 `codex_analyses.json`，显示本机 Codex CLI 根据 PubMed 题录和摘要生成的中文初筛分析。先在本机完成 Codex 的 ChatGPT 登录，然后运行 `python scripts/update_codex_analysis.py --limit 20` 生成新增条目。运行 `scripts/publish_codex_analysis.ps1` 会同步仓库、分析新增条目、提交并触发 Pages 发布。定时运行需要本机保持开机、联网并登录，GitHub Actions 每 6 小时抓取 PubMed 题录。
 
-分析仅依据 RSS 内容，不代表已核验全文。当前仓库使用 Nature 和关键词 `the` 作为演示订阅；正式使用时请填写自己的期刊 RSS 与原样关键词。
+分析仅依据公开题录和摘要，不代表已核验全文。其他数据库的补充链接是本次人工核对的记录，不在自动更新范围内。
 
 ---
 

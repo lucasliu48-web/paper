@@ -32,11 +32,8 @@ jobs:
       run: |
         pip install -r requirements.txt
 
-    - name: Run RSS Script
-      env:
-        RSS_JOURNALS: ${{ secrets.RSS_JOURNALS }}
-        RSS_KEYWORDS: ${{ secrets.RSS_KEYWORDS }}
-      run: python get_RSS.py
+    - name: Fetch PubMed citations
+      run: python pubmed_feed.py
 
     - name: Run AI Summary Script
       env:
