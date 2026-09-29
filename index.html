@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>文献追踪</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: #172b36; background: #f5f7f6; }
+    header { background: #123d39; color: white; padding: 3rem max(1.5rem, calc((100vw - 960px) / 2)); }
+    header h1 { margin: 0 0 .5rem; font-size: clamp(2rem, 5vw, 3rem); }
+    header p { margin: 0; color: #d0e5df; }
+    main { max-width: 960px; margin: 0 auto; padding: 1.5rem; }
+    .toolbar { display: flex; flex-wrap: wrap; gap: .75rem; align-items: center; margin-bottom: 1rem; }
+    .toolbar input { flex: 1 1 250px; min-width: 0; padding: .8rem 1rem; border: 1px solid #c8d7d1; border-radius: .6rem; font: inherit; }
+    .toolbar a { padding: .8rem 1rem; border-radius: .6rem; color: #123d39; background: #d7ece5; font-weight: 600; text-decoration: none; }
+    .notice { margin: 0 0 1.5rem; padding: .8rem 1rem; border-left: 4px solid #b17e2f; background: #fff4df; }
+    #status { color: #4a5e66; margin: 1rem 0; }
+    .paper { background: white; border: 1px solid #e0e8e4; border-radius: .8rem; padding: 1.25rem; margin: .75rem 0; box-shadow: 0 2px 8px #163d3309; }
+    .paper h2 { font-size: 1.15rem; line-height: 1.45; margin: .35rem 0 .65rem; }
+    .paper h2 a { color: #145e59; text-decoration: none; }
+    .paper h2 a:hover, .paper h2 a:focus-visible { text-decoration: underline; }
+    .meta { color: #52656a; font-size: .9rem; }
+    .summary { color: #344950; line-height: 1.65; margin: .75rem 0 0; }
+    footer { max-width: 960px; margin: 0 auto; padding: 0 1.5rem 2rem; color: #63767a; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>文献追踪</h1>
+    <p>查看最近筛选到的论文，点击标题前往原文页面。</p>
+  </header>
+  <main>
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="搜索标题、期刊或摘要" aria-label="搜索文献">
+      <a href="filtered_feed.xml">订阅 RSS</a>
+    </div>
+    <p class="notice">当前为演示订阅：Nature，测试关键词为 the。提供正式期刊和关键词后会替换。</p>
+    <p id="status" role="status" aria-live="polite">正在读取文献…</p>
+    <section id="papers" aria-label="文献列表"></section>
+  </main>
+  <footer>文献信息来自期刊 RSS。筛选结果请以原文为准。</footer>
+  <script>
+    const status = document.querySelector('#status');
+    const list = document.querySelector('#papers');
+    const search = document.querySelector('#search');
+    let papers = [];
+
+    function field(item, name) {
+      return item.getElementsByTagName(name)[0]?.textContent?.trim() || '';
+    }
+
+    function plainText(html) {
+      return new DOMParser().parseFromString(html, 'text/html').body.textContent.trim();
+    }
+
+    function render() {
+      const query = search.value.trim().toLocaleLowerCase();
+      const shown = papers.filter(paper =>
+        `${paper.title} ${paper.journal} ${paper.summary}`.toLocaleLowerCase().includes(query)
+      );
+      list.replaceChildren();
+      for (const paper of shown) {
+        const card = document.createElement('article');
+        card.className = 'paper';
+        const meta = document.createElement('div');
+        meta.className = 'meta';
+        meta.textContent = [paper.journal, paper.date].filter(Boolean).join(' · ');
+        const heading = document.createElement('h2');
+        if (/^https?:\/\//i.test(paper.link)) {
+          const link = document.createElement('a');
+          link.href = paper.link;
+          link.textContent = paper.title;
+          link.target = '_blank';
+          link.rel = 'noopener noreferrer';
+          heading.append(link);
+        } else {
+          heading.textContent = paper.title;
+        }
+        card.append(meta, heading);
+        if (paper.summary) {
+          const summary = document.createElement('p');
+          summary.className = 'summary';
+          summary.textContent = paper.summary;
+          card.append(summary);
+        }
+        list.append(card);
+      }
+      status.textContent = `显示 ${shown.length} / ${papers.length} 篇文献`;
+    }
+
+    search.addEventListener('input', render);
+    fetch('filtered_feed.xml')
+      .then(response => {
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return response.text();
+      })
+      .then(xmlText => {
+        const xml = new DOMParser().parseFromString(xmlText, 'application/xml');
+        if (xml.querySelector('parsererror')) throw new Error('RSS XML 解析失败');
+        papers = [...xml.getElementsByTagName('item')].map(item => ({
+          title: field(item, 'title'),
+          link: field(item, 'link'),
+          journal: item.getElementsByTagNameNS('http://purl.org/dc/elements/1.1/', 'source')[0]?.textContent?.trim() || '',
+          date: field(item, 'pubDate') ? new Date(field(item, 'pubDate')).toLocaleDateString('zh-CN') : '',
+          summary: plainText(field(item, 'description'))
+        }));
+        render();
+      })
+      .catch(error => { status.textContent = `文献加载失败：${error.message}`; });
+  </script>
+</body>
+</html>

@@ -111,6 +111,8 @@ AI 总结会生成：
 
 ## 📈 客户端接入 (以 Zotero 为例)
 
+也可以直接在浏览器打开 `https://{你的GitHub用户名}.github.io/{仓库名}/` 查看文献列表，无需 RSS 阅读器。
+
 1.  **获取订阅链接**：
     `https://{你的GitHub用户名}.github.io/{仓库名}/filtered_feed.xml`
     若启用了 AI 总结，AI 订阅链接为：

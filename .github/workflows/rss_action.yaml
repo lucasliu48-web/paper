@@ -67,6 +67,7 @@ jobs:
     - name: Prepare Pages files
       run: |
         mkdir -p public
+        cp index.html public/
         cp filtered_feed.xml public/
         for file in ai_summary_feed.xml ai_summary.html; do
           if [ -f "$file" ]; then cp "$file" public/; fi
