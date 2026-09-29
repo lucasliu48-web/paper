@@ -1,6 +1,12 @@
-$ErrorActionPreference = 'Stop'
+﻿$ErrorActionPreference = 'Stop'
 $repo = Split-Path $PSScriptRoot -Parent
 Set-Location $repo
+$env:CODEX_HOME = 'E:\14 codex\90-Codex主目录'
+$git = 'C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd\git.exe'
+$codex = Get-ChildItem "$env:LOCALAPPDATA\OpenAI\Codex\bin\*\codex.exe" -ErrorAction Stop |
+    Sort-Object LastWriteTime -Descending | Select-Object -First 1 -ExpandProperty FullName
+if (-not (Test-Path $git) -or -not $codex) { throw 'Git or Codex CLI is unavailable.' }
+$env:Path = "$(Split-Path $git);$(Split-Path $codex);$env:Path"
 $env:HTTPS_PROXY = 'http://127.0.0.1:18081'
 $env:HTTP_PROXY = $env:HTTPS_PROXY
 
