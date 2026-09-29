@@ -23,6 +23,8 @@
     .paper h2 a:hover, .paper h2 a:focus-visible { text-decoration: underline; }
     .meta { color: #52656a; font-size: .9rem; }
     .summary { color: #344950; line-height: 1.65; margin: .75rem 0 0; }
+    .analyze { margin-top: .9rem; padding: .5rem .75rem; border: 1px solid #b8d0c8; border-radius: .5rem; background: #f1f8f5; color: #145e59; font: inherit; cursor: pointer; }
+    .analyze:hover, .analyze:focus-visible { background: #e1f0e9; }
     footer { max-width: 960px; margin: 0 auto; padding: 0 1.5rem 2rem; color: #63767a; font-size: .9rem; }
   </style>
 </head>
@@ -40,7 +42,7 @@
     <p id="status" role="status" aria-live="polite">正在读取文献…</p>
     <section id="papers" aria-label="文献列表"></section>
   </main>
-  <footer>文献信息来自期刊 RSS。筛选结果请以原文为准。</footer>
+  <footer>文献信息来自期刊 RSS。可将分析提示词粘贴到 ChatGPT 或 Codex；全文信息请以原文为准。</footer>
   <script>
     const status = document.querySelector('#status');
     const list = document.querySelector('#papers');
@@ -53,6 +55,27 @@
 
     function plainText(html) {
       return new DOMParser().parseFromString(html, 'text/html').body.textContent.trim();
+    }
+
+    async function copyForAi(paper, button) {
+      const prompt = [
+        '请根据以下 RSS 题录和摘要帮助我初筛这篇文献。',
+        '只依据给出的内容说明研究问题、可能的研究设计及值得进一步核验的信息。',
+        '不要声称已阅读全文；无法判断的内容写“未核实”。请保留原文标题和链接。',
+        '如需判断与我的研究方向是否相关，请先询问我的研究问题和关键词。',
+        '',
+        `标题：${paper.title}`,
+        `期刊：${paper.journal || '未报告'}`,
+        `发布日期：${paper.date || '未报告'}`,
+        `链接：${paper.link}`,
+        `摘要：${paper.summary || '未报告'}`
+      ].join('\n');
+      try {
+        await navigator.clipboard.writeText(prompt);
+        button.textContent = '已复制，粘贴到 GPT 或 Codex';
+      } catch {
+        button.textContent = '复制失败，请检查剪贴板权限';
+      }
     }
 
     function render() {
@@ -85,6 +108,12 @@
           summary.textContent = paper.summary;
           card.append(summary);
         }
+        const analyze = document.createElement('button');
+        analyze.type = 'button';
+        analyze.className = 'analyze';
+        analyze.textContent = '复制给 GPT / Codex 分析';
+        analyze.addEventListener('click', () => copyForAi(paper, analyze));
+        card.append(analyze);
         list.append(card);
       }
       status.textContent = `显示 ${shown.length} / ${papers.length} 篇文献`;
