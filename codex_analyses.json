@@ -1,6 +1,6 @@
 {
   "basis": "RSS title and description only",
-  "updated_at": "2026-09-29T07:03:45.037547+00:00",
+  "updated_at": "2026-09-29T07:05:52.487472+00:00",
   "items": [
     {
       "link": "https://www.nature.com/articles/d41586-026-03004-3",
@@ -193,6 +193,62 @@
     {
       "link": "https://www.nature.com/articles/d41586-026-02949-9",
       "summary": "评论文章：主张大学在应用人工智能时保留人类教师的作用；题录呈现的是观点，未提供教学效果的实证比较。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02855-0",
+      "summary": "新闻：介绍干细胞治疗自身免疫病的进展及免疫抑制难题；摘要未提供临床疗效或安全性数据。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02789-7",
+      "summary": "研究解读：介绍细穗飘拂草有性繁殖中类似克隆的遗传现象；摘要未提供原始实验方法或证据细节。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-03025-y",
+      "summary": "每日简报：汇集焦卷文字识读、系外行星无线电信号及人工智能时代的思考等话题；摘要不足以核验各项报道的依据。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02947-x",
+      "summary": "新闻：报道一份覆盖近1500名不同年龄供者的前额叶基因表达图谱；摘要未说明其对阿尔茨海默病的具体发现。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02930-6",
+      "summary": "科普评论：讨论人工智能对记忆和推理的潜在影响及保持批判性思维的方法；摘要未列出支持这些方法的研究证据。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02770-4",
+      "summary": "研究解读：介绍用单核RNA测序绘制前额叶细胞基因表达图谱；摘要未提供原始研究的样本构成或具体结果。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02775-z",
+      "summary": "研究解读：提出基因调控变化可能参与人类骨骼适应的形成；摘要未提供验证这一解释的证据细节。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02773-1",
+      "summary": "研究解读：将数十年尺度的日长变化与地球内核和地幔间的引力耦合联系起来；摘要未交代分析方法及不确定性。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02858-x",
+      "summary": "方法指南：说明Nature Index增刊的术语、方法及网站功能；摘要未列出具体统计口径或适用范围。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02563-9",
+      "summary": "职业建议：讨论博士生如何重拾研究动力；摘要未提供建议内容或其效果证据。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-03019-w",
+      "summary": "新闻：报道基于镥原子的高精度时钟及其重新定义秒的潜力；摘要未给出精度指标或比较依据。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02771-3",
+      "summary": "研究解读：介绍北半球针叶树在南半球种植后的生长和生理表现；摘要未说明研究对象、条件或适用范围。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02637-8",
+      "summary": "新闻：报道蝙蝠基因组集合为演化研究提供新线索；摘要未说明基因组数量、分析方法或具体发现。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02854-1",
+      "summary": "评论：主张为再生医学建立更深入且更公平的研究基础；摘要未提供具体论证或实施方案。"
     }
   ]
 }
