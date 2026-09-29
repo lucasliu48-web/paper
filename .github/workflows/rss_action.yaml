@@ -35,24 +35,11 @@ jobs:
     - name: Fetch PubMed citations
       run: python pubmed_feed.py
 
-    - name: Run AI Summary Script
-      env:
-        AI_SUMMARY_ENABLED: ${{ secrets.AI_SUMMARY_ENABLED }}
-        AI_API_CONFIG: ${{ secrets.AI_API_CONFIG }}
-        AI_SUMMARY_PROMPT: ${{ secrets.AI_SUMMARY_PROMPT }}
-        AI_SUMMARY_INTERVAL_HOURS: ${{ secrets.AI_SUMMARY_INTERVAL_HOURS }}
-        AI_SUMMARY_MAX_CANDIDATES: ${{ secrets.AI_SUMMARY_MAX_CANDIDATES }}
-        PAPER_FEED_PUBLIC_BASE_URL: ${{ vars.PAPER_FEED_PUBLIC_BASE_URL }}
-      run: python ai_summary.py
-
     - name: Commit and Push changes
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         if [ -f filtered_feed.xml ]; then git add filtered_feed.xml; fi
-        if [ -f ai_summary_feed.xml ]; then git add ai_summary_feed.xml; fi
-        if [ -f ai_summary.html ]; then git add ai_summary.html; fi
-        if [ -f ai_summary_state.json ]; then git add ai_summary_state.json; fi
         if git diff --cached --quiet; then
           echo "No changes to commit"
         else
@@ -67,9 +54,6 @@ jobs:
         cp index.html public/
         cp filtered_feed.xml public/
         if [ -f codex_analyses.json ]; then cp codex_analyses.json public/; fi
-        for file in ai_summary_feed.xml ai_summary.html; do
-          if [ -f "$file" ]; then cp "$file" public/; fi
-        done
 
     - name: Upload Pages artifact
       uses: actions/upload-pages-artifact@v3
