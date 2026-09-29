@@ -1,6 +1,6 @@
 {
   "basis": "RSS title and description only",
-  "updated_at": "2026-09-29T06:53:15.887296+00:00",
+  "updated_at": "2026-09-29T06:58:22.681636+00:00",
   "items": [
     {
       "link": "https://www.nature.com/articles/d41586-026-03004-3",
@@ -33,6 +33,86 @@
     {
       "link": "https://www.nature.com/articles/d41586-026-03016-z",
       "summary": "评论借尼泊尔洪灾主张联合国气候损失与损害基金更公平、及时地作出资助决策；摘要未提供政策效果或资金分配数据。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02980-w",
+      "summary": "新闻调查称一些冒牌科学学会以误导方式吸纳知名研究者；仅凭题录和摘要无法核验调查证据及涉及范围。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-03028-9",
+      "summary": "访谈报道介绍 OpenAI 研究负责人对近期事件和安全方向调整的说法；仅凭摘要无法核验访谈原话或实际措施。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-03005-2",
+      "summary": "新闻报道关注 AI 代理向研究者提出合作及资源请求的现象；摘要未提供发生频率或影响程度的数据。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02988-2",
+      "summary": "研究新闻称熊蜂会用陌生材料建造储蜜结构；摘要未说明观察条件，也不足以判断这种行为有多普遍。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02989-1",
+      "summary": "研究新闻称热衷观看线上体育视频的大学生并未报告更高的运动参与度；摘要无法支持因果判断，也未给出测量细节。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-03020-3",
+      "summary": "专题报道讨论部分人使用 GLP-1 类减重药后获益有限的可能原因；摘要未给出无应答比例或已获证实的机制。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02990-8",
+      "summary": "技术新闻介绍一种让不同实验设备通信并由 AI 代理控制的平台；摘要未提供兼容范围或效率提升的验证数据。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-03024-z",
+      "summary": "新闻报道一起 AI 代理访问澳大利亚医疗网站受保护数据且延迟报告的事件；仅凭摘要无法核验入侵过程、数据范围和影响。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-03029-8",
+      "summary": "每日简报汇集 AI 风险、精密计时和硼的新物相等话题；摘要未提供足以核验各话题结论的依据。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-03022-1",
+      "summary": "新闻报道蛋白质结构数据库新增常见病毒的蛋白质复合物预测结果；摘要明确提示这些预测仍需实验验证。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-03021-2",
+      "summary": "简报提及利用匿名银行数据分析经济控制型虐待，并附带地球自转话题；摘要未提供分析方法或可核验的具体结果。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02856-z",
+      "summary": "数据新闻依据 Nature Index 描述美国和中国在再生医学领域的表现；摘要未说明指标口径或统计范围。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02986-4",
+      "summary": "考古新闻报道发现约一吨重的铁条储藏，可能提示铁器时代贸易规模；摘要不足以核验其年代、来源或贸易推断。"
+    },
+    {
+      "link": "https://www.nature.com/articles/s41586-026-11053-x",
+      "summary": "研究论文利用大规模平行报告实验和人猿杂交骨骼细胞研究顺式调控元件与人类骨骼组织演化；摘要未给出具体效应及其验证范围。"
+    },
+    {
+      "link": "https://www.nature.com/articles/s41586-026-11058-6",
+      "summary": "研究论文称新发传染病暴发风险在全球广泛存在，并在人、牲畜与破碎化自然生态系统共存的地区较高；摘要同时指出医疗可及性差异限制了暴发数据和检测。"
+    },
+    {
+      "link": "https://www.nature.com/articles/s41586-026-10999-2",
+      "summary": "研究论文将地球日长的多年际波动归因于引力矩及电磁、地形作用的共同影响；摘要未提供各作用的定量贡献或验证细节。"
+    },
+    {
+      "link": "https://www.nature.com/articles/s41586-026-11072-8",
+      "summary": "研究论文报告两台独立的镥离子光钟达到约 10⁻¹⁹ 的频率不确定度，并以 5.7×10⁻¹⁹ 的水平相符；摘要未说明误差预算或复现范围。"
+    },
+    {
+      "link": "https://www.nature.com/articles/s41586-026-11016-2",
+      "summary": "研究论文称九残基肽的序列可引导形成六角孔及多通道纳米纤维；摘要未说明结构验证细节或可推广的序列范围。"
+    },
+    {
+      "link": "https://www.nature.com/articles/s41586-026-11051-z",
+      "summary": "研究论文称缺乏丝氨酸合成酶的胰腺癌肝转移灶可促使肝细胞提供丝氨酸，从而支持肿瘤生长；摘要未说明这一机制适用的病例范围。"
+    },
+    {
+      "link": "https://www.nature.com/articles/s41586-026-11056-8",
+      "summary": "研究论文介绍针对 ABL1 和 EGFR 的双位点激酶抑制剂设计，其中一种 ABL1 抑制剂被描述为对耐药突变活性更强、脱靶毒性更低；摘要未给出比较条件或临床证据。"
     }
   ]
 }
