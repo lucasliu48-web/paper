@@ -1,6 +1,6 @@
 {
   "basis": "RSS title and description only",
-  "updated_at": "2026-09-29T06:58:22.681636+00:00",
+  "updated_at": "2026-09-29T07:03:45.037547+00:00",
   "items": [
     {
       "link": "https://www.nature.com/articles/d41586-026-03004-3",
@@ -113,6 +113,86 @@
     {
       "link": "https://www.nature.com/articles/s41586-026-11056-8",
       "summary": "研究论文介绍针对 ABL1 和 EGFR 的双位点激酶抑制剂设计，其中一种 ABL1 抑制剂被描述为对耐药突变活性更强、脱靶毒性更低；摘要未给出比较条件或临床证据。"
+    },
+    {
+      "link": "https://www.nature.com/articles/s41586-026-11028-y",
+      "summary": "研究论文：报告甲烷菌水解酶 ArmA 可切割甲烷菌细胞壁，并据此提出古菌肽聚糖含有此前未识别的糖；题录未提供结构鉴定的完整证据。"
+    },
+    {
+      "link": "https://www.nature.com/articles/s41586-026-11054-w",
+      "summary": "研究论文：摘要将 TSC2 缺失引起的星形胶质细胞反应与结节性硬化症病理联系起来；将星形胶质细胞作为治疗靶点仍是潜在方向，题录未提供治疗验证结果。"
+    },
+    {
+      "link": "https://www.nature.com/articles/s41586-026-11033-1",
+      "summary": "研究论文：报告菱方石墨烯在不同条件下出现零电阻超导区域和有限饱和电阻区域；题录未提供相区边界及测量细节。"
+    },
+    {
+      "link": "https://www.nature.com/articles/s41586-026-10271-7",
+      "summary": "研究论文：描述人背外侧前额叶皮质不同细胞类型随年龄变化的非线性转录轨迹；题录未提供样本构成及轨迹推断的细节。"
+    },
+    {
+      "link": "https://www.nature.com/articles/s41586-026-11040-2",
+      "summary": "研究论文：基于密西西比河流域长期记录，认为农业施石灰在过去一个世纪总体表现为碳汇；题录未给出碳收支估算方法和不确定性范围。"
+    },
+    {
+      "link": "https://www.nature.com/articles/s41586-026-11052-y",
+      "summary": "研究论文：提出 TRAM 通过促使 MyD88 脱离 TLR–TIRAP 复合物来调节 myddosome 成熟及后续信号传导；题录未提供机制验证的具体证据。"
+    },
+    {
+      "link": "https://www.nature.com/articles/s41586-026-11029-x",
+      "summary": "研究论文：报告果蝇 Lsp2 与 mTORC1、TOP mRNA 翻译及寿命有关，且缺失 Lsp2 的果蝇寿命延长；题录未给出效应大小或能否推广至其他物种的证据。"
+    },
+    {
+      "link": "https://www.nature.com/articles/s41586-026-11031-3",
+      "summary": "研究论文：用同位素示踪考察果蝇幼虫期膳食氨基酸的去向，并提出 Lsp2 连接早期蛋白质限制、成年期翻译与寿命；题录未提供示踪结果和效应量。"
+    },
+    {
+      "link": "https://www.nature.com/articles/s41586-026-11050-0",
+      "summary": "研究论文：小鼠脑空间脂质组图谱显示超过 500 个生化区域，并描述妊娠期间的变化；题录未提供区域划分标准或变化幅度。"
+    },
+    {
+      "link": "https://www.nature.com/articles/s41586-025-09573-z",
+      "summary": "研究论文：人背外侧前额叶皮质单细胞转录组图谱描述了多种脑疾病的转录特征；题录所称治疗靶点仍属潜在方向，未提供临床验证。"
+    },
+    {
+      "link": "https://www.nature.com/articles/s41586-026-11048-8",
+      "summary": "研究论文：提出 TA 重复序列处的微同源介导末端连接有助于维持染色体外 DNA 稳定性；干预 Polθ 的抗肿瘤作用在题录中仍是推测，未见治疗效果数据。"
+    },
+    {
+      "link": "https://www.nature.com/articles/s41586-026-11102-5",
+      "summary": "研究论文：报告四足机器人 RAIBO2 单次充电完成马拉松及其运输成本数值；题录未提供测试条件或重复运行结果。"
+    },
+    {
+      "link": "https://www.nature.com/articles/s41586-026-11041-1",
+      "summary": "研究论文：报告 Danionella cerebrum 通过感知同伴快速运动参与集体逃逸，并指出相关中脑和丘脑神经元活动；题录未提供行为与神经记录的详细证据。"
+    },
+    {
+      "link": "https://www.nature.com/articles/s41586-026-11046-w",
+      "summary": "研究论文：提出拟南芥着丝粒重复单元的插入、缺失和点突变共同塑造其串联重复结构；题录未提供突变率估计或机制验证细节。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02772-2",
+      "summary": "研究解读文章：介绍小鼠脑脂质空间分区及妊娠期变化；题录未提供原研究的方法和结果细节，不能作为独立研究证据。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02937-z",
+      "summary": "研究解读文章：介绍表面处理与大面积钙钛矿太阳能组件的效率、稳定性及良率；题录未给出测试条件和与硅组件比较的具体数据。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02857-y",
+      "summary": "评论文章：主张再生医学研究应充分纳入女性及非二元性别者；题录未提供代表性不足的量化数据或系统性证据。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-03018-x",
+      "summary": "新闻报道：转述一项研究关于地核运动相关作用力可解释地球自转微小变化的发现；题录未提供原研究的测量和建模细节。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-03001-6",
+      "summary": "新闻报道：介绍一种高压制备的硼相及其导电性和可拉伸性；题录未提供测试条件，也未说明与预期导电性的比较依据。"
+    },
+    {
+      "link": "https://www.nature.com/articles/d41586-026-02949-9",
+      "summary": "评论文章：主张大学在应用人工智能时保留人类教师的作用；题录呈现的是观点，未提供教学效果的实证比较。"
     }
   ]
 }
