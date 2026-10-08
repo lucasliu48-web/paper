@@ -1,7 +1,11 @@
 {
   "basis": "public citation and abstract only",
-  "updated_at": "2026-09-29T07:55:00.139705+00:00",
+  "updated_at": "2026-10-08T06:30:33.222382+00:00",
   "items": [
+    {
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42691699/",
+      "summary": "原始药物发现平台研究：主要评价新合成的抑制剂，加兰他敏仅作为活性比较对象。"
+    },
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42288161/",
       "summary": "这项原始研究评估伞状脐草提取物的活性，加兰他敏仅作为胆碱酯酶抑制实验的对照。"
@@ -15,12 +19,20 @@
       "summary": "这项原始研究鉴定水仙酪氨酸脱羧酶，加兰他敏仅作为相关生物合成途径的背景被提及。"
     },
     {
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42830424/",
+      "summary": "原始研究，直接研究加兰他敏的鼻腔递送及超声辅助释放，并在APP/PS1小鼠中评估相关结果。"
+    },
+    {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42388101/",
       "summary": "这项回顾性队列研究直接纳入加兰他敏，比较其与其他胆碱酯酶抑制剂使用者的严重心脏事件风险。"
     },
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/41622480/",
       "summary": "这篇综述讨论阿尔茨海默病动物模型中的细胞外囊泡治疗，加兰他敏仅作为现有治疗的背景被提及。"
+    },
+    {
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42729626/",
+      "summary": "这项原始研究评估蔷薇属植物提取物，加兰他敏仅用于表示酶抑制活性的当量单位。"
     },
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42788284/",
@@ -43,16 +55,16 @@
       "summary": "这项大鼠原始研究直接设置加兰他敏给药组，评估其对马拉硫磷反复暴露所致损伤的影响。"
     },
     {
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42824777/",
+      "summary": "原始研究，主要研究新合成的胆碱酯酶抑制剂；加兰他敏仅作为酶活性实验的对照标准。"
+    },
+    {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42249611/",
       "summary": "这项基因组与生化原始研究直接探究加兰他敏的生物合成途径。"
     },
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/28722879/",
       "summary": "这篇高风险药物清单类文章仅将加兰他敏列为口服乙酰胆碱酯酶抑制剂之一。"
-    },
-    {
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42729626/",
-      "summary": "这项原始研究评估蔷薇属植物提取物，加兰他敏仅用于表示酶抑制活性的当量单位。"
     },
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42796795/",
@@ -81,10 +93,6 @@
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42392247/",
       "summary": "结构分析综述：加兰他敏被列入乙酰胆碱酯酶配体类别，研究对象是多类配体，并非专门研究加兰他敏。"
-    },
-    {
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42691699/",
-      "summary": "原始药物发现平台研究：主要评价新合成的抑制剂，加兰他敏仅作为活性比较对象。"
     },
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42603776/",
@@ -233,14 +241,6 @@
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42364649/",
       "summary": "原始研究，直接研究加兰他敏的生物合成途径及相关酶，未涉及其临床疗效。"
-    },
-    {
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42341204/",
-      "summary": "原始药物流行病学研究，筛查胆碱酯酶抑制剂相关的潜在处方级联；加兰他敏是纳入分析的药物之一，摘要未报告其单药结果。"
-    },
-    {
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42281238/",
-      "summary": "原始研究，评估椰枣提取物的胆碱酯酶抑制活性，加兰他敏作为酶抑制实验的标准药物对照。"
     }
   ]
 }
