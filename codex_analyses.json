@@ -1,6 +1,6 @@
 {
   "basis": "public citation and abstract only",
-  "updated_at": "2026-10-08T06:30:33.222382+00:00",
+  "updated_at": "2026-10-09T01:09:04.685074+00:00",
   "items": [
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42691699/",
@@ -17,6 +17,10 @@
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42409273/",
       "summary": "这项原始研究鉴定水仙酪氨酸脱羧酶，加兰他敏仅作为相关生物合成途径的背景被提及。"
+    },
+    {
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42761709/",
+      "summary": "这篇综述聚焦靛红类胆碱酯酶抑制剂，加兰他敏仅作为现有药物在背景中提及。"
     },
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42830424/",
@@ -45,10 +49,6 @@
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42800396/",
       "summary": "这项原始研究主要评估白花马鞭草精油，加兰他敏仅作为分子对接的参照物。"
-    },
-    {
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42761709/",
-      "summary": "这篇综述聚焦靛红类胆碱酯酶抑制剂，加兰他敏仅作为现有药物在背景中提及。"
     },
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42743124/",
@@ -93,6 +93,10 @@
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42392247/",
       "summary": "结构分析综述：加兰他敏被列入乙酰胆碱酯酶配体类别，研究对象是多类配体，并非专门研究加兰他敏。"
+    },
+    {
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41662632/",
+      "summary": "GOYA，这篇观点性文章直接讨论加兰他敏与美金刚联用治疗精神分裂症阴性及认知症状的潜力，摘要未呈现原始研究数据。"
     },
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42603776/",
@@ -237,10 +241,6 @@
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42261164/",
       "summary": "原始研究，评估黄连解毒汤提取物的体外活性，加兰他敏作为乙酰胆碱酯酶抑制实验的参照药物。"
-    },
-    {
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42364649/",
-      "summary": "原始研究，直接研究加兰他敏的生物合成途径及相关酶，未涉及其临床疗效。"
     }
   ]
 }
