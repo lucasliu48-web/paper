@@ -1,6 +1,6 @@
 {
   "basis": "public citation and abstract only",
-  "updated_at": "2026-10-09T01:09:04.685074+00:00",
+  "updated_at": "2026-10-10T06:30:37.993412+00:00",
   "items": [
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42691699/",
@@ -41,6 +41,10 @@
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42788284/",
       "summary": "这篇综述提及既往加兰他敏治疗狼疮小鼠的研究，但本文并非新的加兰他敏原始研究。"
+    },
+    {
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42851720/",
+      "summary": "原始研究：加兰他敏是这项FAERS七药不良事件报告分析的直接研究对象之一；摘要报告了心血管及跌倒相关信号，但不能据此推断因果。"
     },
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42771164/",
@@ -237,10 +241,6 @@
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42297456/",
       "summary": "回顾性队列原始研究，考察抗疱疹药物使用与启动阿尔茨海默病药物治疗的关联；加兰他敏仅列入结局所涵盖的药物。"
-    },
-    {
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42261164/",
-      "summary": "原始研究，评估黄连解毒汤提取物的体外活性，加兰他敏作为乙酰胆碱酯酶抑制实验的参照药物。"
     }
   ]
 }
