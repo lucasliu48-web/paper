@@ -1,6 +1,6 @@
 {
   "basis": "public citation and abstract only",
-  "updated_at": "2026-10-19T06:30:31.808400+00:00",
+  "updated_at": "2026-10-26T06:30:42.144325+00:00",
   "items": [
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42691699/",
@@ -17,6 +17,14 @@
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42409273/",
       "summary": "这项原始研究鉴定水仙酪氨酸脱羧酶，加兰他敏仅作为相关生物合成途径的背景被提及。"
+    },
+    {
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42919080/",
+      "summary": "该文为直接涉及加兰他敏的制剂原始研究，基于17组美金刚与氢溴酸加兰他敏共同递送的长效注射制剂实验数据，比较统计与AI/机器学习模型对药物释放等制剂指标的预测性能，未报告临床疗效研究。"
+    },
+    {
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42824777/",
+      "summary": "原始研究，主要研究新合成的胆碱酯酶抑制剂；加兰他敏仅作为酶活性实验的对照标准。"
     },
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42875646/",
@@ -65,10 +73,6 @@
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42743124/",
       "summary": "这项大鼠原始研究直接设置加兰他敏给药组，评估其对马拉硫磷反复暴露所致损伤的影响。"
-    },
-    {
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42824777/",
-      "summary": "原始研究，主要研究新合成的胆碱酯酶抑制剂；加兰他敏仅作为酶活性实验的对照标准。"
     },
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42249611/",
@@ -237,10 +241,6 @@
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42338648/",
       "summary": "药物治疗概述，重点介绍多奈单抗；加兰他敏仅作为现有乙酰胆碱酯酶抑制剂的背景例子。"
-    },
-    {
-      "link": "https://pubmed.ncbi.nlm.nih.gov/36508538/",
-      "summary": "植物生物碱毒性综述性文章，加兰他敏仅作为具有治疗用途的生物碱例子提及。"
     }
   ]
 }
