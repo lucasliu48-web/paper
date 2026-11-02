@@ -1,6 +1,6 @@
 {
   "basis": "public citation and abstract only",
-  "updated_at": "2026-10-28T06:30:39.319327+00:00",
+  "updated_at": "2026-11-02T01:07:46.603164+00:00",
   "items": [
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42691699/",
@@ -9,6 +9,10 @@
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42288161/",
       "summary": "这项原始研究评估伞状脐草提取物的活性，加兰他敏仅作为胆碱酯酶抑制实验的对照。"
+    },
+    {
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42956264/",
+      "summary": "该文为新型三氟甲基化化合物合成、结构表征及乙酰胆碱酯酶抑制活性的原始研究，加兰他敏仅作为同批酶抑制实验的参照药物及结构比较背景，并非主要研究对象。"
     },
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42788284/",
@@ -21,6 +25,10 @@
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42409273/",
       "summary": "这项原始研究鉴定水仙酪氨酸脱羧酶，加兰他敏仅作为相关生物合成途径的背景被提及。"
+    },
+    {
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42949660/",
+      "summary": "该文为结合生物合成工程与化学衍生化开发 collismycin 类乙酰胆碱酯酶抑制剂的原始研究，加兰他敏仅作为化合物 4h 的活性比较参照，摘要未说明具体比较方法。"
     },
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/42919080/",
@@ -233,14 +241,6 @@
     {
       "link": "https://pubmed.ncbi.nlm.nih.gov/41687295/",
       "summary": "原始研究，开发乙酰胆碱酯酶检测平台，并用加兰他敏等已知抑制剂测试平台；研究重点是检测方法。"
-    },
-    {
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42377826/",
-      "summary": "原始研究，评估新合成化合物的生物活性，加兰他敏作为丁酰胆碱酯酶抑制实验的参照药物。"
-    },
-    {
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42451611/",
-      "summary": "原始研究，分析南极地衣提取物的成分和活性，加兰他敏仅用于分子对接结果的比较。"
     }
   ]
 }
